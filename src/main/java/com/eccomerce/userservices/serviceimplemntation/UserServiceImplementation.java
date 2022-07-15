@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.eccomerce.userservices.converter.UserConverter;
 import com.eccomerce.userservices.dto.UserDto;
@@ -13,7 +14,7 @@ import com.eccomerce.userservices.repository.UserRepo;
 import com.eccomerce.userservices.service.UserService;
 
 
-
+@Service
 public class UserServiceImplementation implements UserService {
 	@Autowired
 	UserRepo userRepo;
