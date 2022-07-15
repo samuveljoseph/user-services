@@ -88,7 +88,7 @@
 				</executions>
 			</plugin>
 		</plugins>
-		<finalName>user-service-0.0.1</finalName>
+		<finalName>user-services-0.0.1</finalName>
 	</build>
 
 </project>
